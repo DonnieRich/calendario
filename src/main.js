@@ -1,4 +1,4 @@
-import './style.css' with { type: "css" };
+// import './style.css' with { type: "css" };
 import { addSelectionEvent } from './selectDay.js';
 import { toggleCalendar, createCalendar } from './manageCalendar.js';
 import { generateCalendar } from './generateCalendar.js';
