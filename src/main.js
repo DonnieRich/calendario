@@ -1,8 +1,8 @@
-import './style.css';
+import './style.css' with { type: "css" };
 import { addSelectionEvent } from './selectDay.js';
 import { toggleCalendar, createCalendar } from './manageCalendar.js';
 import { generateCalendar } from './generateCalendar.js';
-import data from './data.json';
+import data from './data.json' with { type: "json" };
 
 toggleCalendar(document.querySelector('#calendar .arrow'));
 
